@@ -31,7 +31,7 @@ p {
     padding: 0 0 3rem;
 }
 
-.gympayments-logo{
+.gympayments-logo {
     width: 150px;
 }
 
@@ -54,13 +54,22 @@ p {
 #title {
     background-color: #f0a500;
     color: #f4f4f4;
-    
+
 }
 
 .icons1 {
     width: 16px;
 }
 
+/* Title image */
+
+.title-image {
+    width: 80%;
+    transform: rotate(15deg);
+    position: absolute;
+    right: 5%;
+
+}
 
 @media (max-width:1028px) {
     #title {
@@ -68,9 +77,12 @@ p {
     }
 
     .title-image {
-        position: static;
+        position: relative;
         transform: rotate(0);
+        
     }
+
+
 
 }
 
@@ -80,28 +92,17 @@ p {
     margin: 1rem;
 }
 
-
-/* Title image */
-
-.title-image {
-    width: 80%;
-    transform: rotate(15deg);
-    position: absolute;
-    right: 15%;
-    
-}
-
 /* Features section */
 
 #features {
     padding: 3% 15% 3%;
     background-color: #f4f4f4;
-    position: static;
+    position: relative;
 }
 
 .features-title {
     font-weight: 600;
-    font-size: 2rem;
+    font-size: 35px;
 }
 
 .features-box {
@@ -110,7 +111,7 @@ p {
 
 .features-img {
     width: 30%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 /* partners Section */
@@ -122,7 +123,7 @@ p {
 
 .partners-title {
     font-weight: 900;
-    padding: 3%;
+    padding: 100px 20% 10px 20%;
     font-size: 4rem;
 }
 
@@ -133,11 +134,11 @@ p {
 }
 
 .partners-img {
-    width: 60%;   
+    width: 60%;
     margin: 25px;
     align-items: center;
 }
 
 .carousel-item {
-    padding: 7% 15%;
+    padding: 5% 15%;
 }

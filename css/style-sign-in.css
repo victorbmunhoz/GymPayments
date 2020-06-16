@@ -1,0 +1,57 @@
+body {
+    background-color: #f0a500;
+    text-align: center;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat';
+}
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.sr-only {
+    width: 100px;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+.logo-image {
+    width: 150px;
+    padding: 50px 0;    
+}
+
+.sign-in {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    padding-bottom: 30px;
+    color: aliceblue;
+}
+
+.form-control{
+    width: 300px;
+    text-align: left;
+    margin: 5px auto 5px auto;
+    
+}
+
+.sign-in-btn {
+    width: 300px;
+    margin: auto;
+}
